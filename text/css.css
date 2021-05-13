@@ -1,0 +1,61 @@
+body{background-color: rgb(223, 223, 223);}
+
+
+
+.caption{text-align: center;}
+
+.p_diamond{width: 450px;
+    margin: 0 auto 0 auto;
+    }
+
+.diamond{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(164, 168, 184);
+    margin: 0 50px 50px 0;
+    cursor: pointer;
+    transition: .8s;
+    float: left;
+    text-align: center; 
+    transform: rotate(45deg);  
+    }
+
+
+
+.text{
+    transform: rotate(-45deg);
+    color: honeydew;
+    text-decoration: none;
+    text-align: center;
+}
+
+.top_box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 0 auto 0 auto;
+    text-align: center;    
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: rgb(74, 105, 206);
+    transform: rotate(405deg);
+    
+    /* width: 100px;
+    height: 100px; */
+}
+.circle2 {
+    border-radius: 50%;
+    background-color: rgb(197, 109, 109);
+    transform: rotate(405deg);
+    /* width: 100px;
+    height: 100px; */
+}
+.circle3 {
+    border-radius: 50%;
+    background-color: rgb(99, 172, 121);
+    transform: rotate(405deg);
+    /* width: 100px;
+    height: 100px; */
+}
