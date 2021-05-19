@@ -1,5 +1,6 @@
 html{
     overflow-x: hidden;
+    scroll-behavior: smooth;
     }
 
 body{
@@ -7,6 +8,13 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(50, 50, 50);
     font-size: 14px;
+    }
+
+nav {
+    position: fixed;
+    background-color: #ccc;
+    padding: 20px;
+    scroll-behavior: smooth;
     }
 
 .top_box{
@@ -19,21 +27,7 @@ body{
     font-size: 3ex;
     }
 
-/* .click{
-    text-align: center;
-    margin-top: 40px;
-}
-
-.click-bottom{
-    margin-top: -15px;
-} */
-
 .p-diamond{
-    /* width: 600px;
-    height: 120px; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* padding: 10px; */ 
     text-align: center;
     }
 
@@ -43,11 +37,8 @@ body{
     height: 110px;
     background-color: rgb(164, 168, 184);
     margin: 70px 70px 70px 70px;
-    /* margin-left: 50px;
-    margin-right: 50px; */
     cursor: pointer;
     transition: .8s;
-    /* float: left; */
     transform: rotate(45deg);
     font-size: 40pt;
     color: rgb(244, 244, 244);
@@ -150,7 +141,6 @@ History
 
 .history{
     overflow: hidden;
-    /* margin-right: 100px; */
     margin-left: 100px;
     margin-right: 150px;
     max-width: 900px;
@@ -164,26 +154,6 @@ History
     max-width: 1200px;
     min-width: none;
 }
-
-/* .advantage{
-    margin-right: 100px;
-    margin-left: 100px;
-}
-
-.skill{
-    margin-right: 100px;
-    margin-left: 100px;
-}
-
-.hobby{
-    margin-right: 100px;
-    margin-left: 100px;
-}
-
-.passion{
-    margin-right: 100px;
-    margin-left: 100px;
-} */
 
 /*------------------
 Listen
@@ -203,19 +173,9 @@ Listen
     background-color: rgb(196, 61, 99);
 }
 
-.scbox{
-    width: 700px;
-    height: auto;
-    text-align: center;
-    margin:  0 200px 0 200px;
-    /* display: flex; */
-}
-
-.sctext1{
+.sc-title{
     float: left;
     margin: 10px 0 0 0;
-    /* display: inline-block; */
-    /* vertical-align: left; */
 }
 
 .soundcloud{
@@ -224,21 +184,19 @@ Listen
     margin: auto;
 }
 
-.sctext2{
+.sc-more{
     float: right;
-    /* display: inline-block; */
-    /* vertical-align: right; */
 }
 
-.sctext2:link{
+.sc-more:link{
     color: rgb(162, 162, 162);
 } 
 
-.sctext2:visited{
+.sc-more:visited{
     color: rgb(196, 61, 99);
 }
 
-.sctext2:hover{
+.sc-more:hover{
     color: rgb(194, 122, 142);
 }
 
@@ -272,7 +230,6 @@ See
 .item{
     width: 300px;
     height: auto;
-    /* display: flex; */
     text-align: center;
     margin:  auto;
     flex-wrap: wrap;
@@ -292,6 +249,10 @@ img{
     margin: 10px 0 0 0 ;
     letter-spacing: 1px;
 }
+
+/* ------------
+footer
+------------- */
 
 .footer{
     color: gray;
