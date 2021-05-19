@@ -36,7 +36,7 @@ nav {
     width: 110px;
     height: 110px;
     background-color: rgb(164, 168, 184);
-    margin: 70px 70px 70px 70px;
+    margin: 70px 70px 30px 70px;
     cursor: pointer;
     transition: .8s;
     transform: rotate(45deg);
@@ -90,6 +90,7 @@ profile
     border-radius: 50%;
     text-align: center;
     background-color: rgb(49, 121, 222);
+    margin-top: 40px;
 }
 
 .bigtitle{
